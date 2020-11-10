@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>www.MyTechBlog.in</title>
+		<title>Shailendra Srivastava</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
