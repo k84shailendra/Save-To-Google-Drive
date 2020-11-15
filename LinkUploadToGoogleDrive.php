@@ -39,7 +39,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" || isset($_GET['code']) || (isset($_SESS
 	$client->setClientId('121940551950-d3m7a952fq5j4b2aegb38cp2oi0u17h2.apps.googleusercontent.com');
 	$client->setClientSecret('82ekin_bOcDdYMDCTbwYPuDD');
 	//set the URL of this same file & set the same url in google developer console.
-	$client->setRedirectUri('https://accounts.google.com/o/oauth2/auth?scope=https://www.googleapis.com/auth/drive&response_type=code&access_type=offline&redirect_uri=https://freeupload.herokuapp.com&client_id=121940551950-d3m7a952fq5j4b2aegb38cp2oi0u17h2.apps.googleusercontent.com');
+	$client->setRedirectUri('https://skgd.herokuapp.com/api/oauth/google/callback');
 	$client->setScopes(array('https://www.googleapis.com/auth/drive.file'));
 	
 	
